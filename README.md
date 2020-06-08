@@ -8,6 +8,10 @@
 * Converter Gson: Gson response Wrapper
 * JAVA 8
 
+### jump into code
+* Main file: https://github.com/peterslight/Authors-Algo-Test/blob/master/src/com/peterstev/Main.java
+* Source package: https://github.com/peterslight/Authors-Algo-Test/tree/master/src/com/peterstev
+
 ## The Challenge
 
 In this challenge, the REST API contains information about a collection of users and articles they created. Given the threshold value, the goal is to use the API to get the following
