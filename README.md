@@ -62,3 +62,11 @@ The list of the authors sorted by when their record was created according to a s
     public static List<String> getUsernamesSortedByRecordDate(int threshold) {
 
     }
+
+
+## Libs
+* OKHttp: Network Client
+* Retrofit: OKHttp Network wrapper
+* Okio: OKHttp internal IO data processor helper
+* Gson: Serialization
+* Converter Gson: Gson response Wrapper
