@@ -1,5 +1,15 @@
 # Authors
 
+## Implementation
+* OKHttp: Network Client
+* Retrofit: OKHttp Network wrapper
+* Okio: OKHttp internal IO data processor helper
+* Gson: Serialization
+* Converter Gson: Gson response Wrapper
+* JAVA 8
+
+## The Challenge
+
 In this challenge, the REST API contains information about a collection of users and articles they created. Given the threshold value, the goal is to use the API to get the following
 
 The list of most active authors according to a set threshold
@@ -62,11 +72,3 @@ The list of the authors sorted by when their record was created according to a s
     public static List<String> getUsernamesSortedByRecordDate(int threshold) {
 
     }
-
-
-## Libs
-* OKHttp: Network Client
-* Retrofit: OKHttp Network wrapper
-* Okio: OKHttp internal IO data processor helper
-* Gson: Serialization
-* Converter Gson: Gson response Wrapper
