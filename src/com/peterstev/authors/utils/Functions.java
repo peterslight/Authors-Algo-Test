@@ -1,4 +1,4 @@
-package com.peterstev.utils;
+package com.peterstev.authors.utils;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

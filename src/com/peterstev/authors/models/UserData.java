@@ -1,4 +1,4 @@
-package com.peterstev.models;
+package com.peterstev.authors.models;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

@@ -1,6 +1,6 @@
-package com.peterstev.network;
+package com.peterstev.authors.network;
 
-import com.peterstev.models.Data;
+import com.peterstev.authors.models.Data;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
