@@ -1,4 +1,4 @@
-package com.peterstev.socklaundering;
+package socklaundering;
 
 import java.util.ArrayList;
 import java.util.Arrays;

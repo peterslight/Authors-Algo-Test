@@ -1,6 +1,5 @@
-package com.peterstev.socklaundering;
+package socklaundering;
 
-import com.peterstev.socklaundering.SockLaundry;
 import org.junit.Assert;
 import org.junit.Test;
 

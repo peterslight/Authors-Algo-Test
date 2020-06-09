@@ -1,11 +1,10 @@
-package com.peterstev.authors;
+package authors;
 
-import com.peterstev.socklaundering.SockLaundry;
-import com.peterstev.authors.models.Data;
-import com.peterstev.authors.models.UserData;
-import com.peterstev.authors.network.ApiGenerator;
-import com.peterstev.authors.network.ApiInterface;
-import com.peterstev.authors.utils.Functions;
+import authors.models.Data;
+import authors.models.UserData;
+import authors.network.ApiGenerator;
+import authors.network.ApiInterface;
+import authors.utils.Functions;
 import retrofit2.Call;
 import retrofit2.Response;
 
@@ -24,27 +23,22 @@ public class Main {
          * 3. The list of the authors sorted by when their record was created according to a set threshold.
          */
 
-        int numberMachineCanWash = 4;
-        int[] cleanPile = new int[] { 1, 2, 3, 4, 6, 7, 8, 9, 10, 11 };
-        int[] dirtyPile = new int[] { 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 };
-        System.out.println(new SockLaundry().getMaximumPairOfSocks(numberMachineCanWash, cleanPile, dirtyPile));
+        System.out.println("Enter page number to fetch data (1-2)");
+        Scanner scanner = new Scanner(System.in);
+        getData(scanner.nextInt());
 
-//        System.out.println("Enter page number to fetch data (1-2)");
-//        Scanner scanner = new Scanner(System.in);
-//        getData(scanner.nextInt());
-//
-//        if (!userDataList.isEmpty()){
-//            Scanner threshold = new Scanner(System.in);
-//            System.out.println("\n\nTo filter record by most active authors with the highest submission count, enter a threshold value");
-//            getUsernames(threshold.nextInt()).forEach(System.out::println);
-//
-//            System.out.println("\n\nTo filter record by date created (old-new), enter a threshold value");
-//            getUsernamesSortedByRecordDate(threshold.nextInt()).forEach(System.out::println);
-//
-//            System.out.println("\n\nThe user with the highest comment count is :: " + getUsernameWithHighestCommentCount());
-//        }else {
-//            System.out.println("Error occurred, check connection and retry");
-//        }
+        if (!userDataList.isEmpty()){
+            Scanner threshold = new Scanner(System.in);
+            System.out.println("\n\nTo filter record by most active authors with the highest submission count, enter a threshold value");
+            getUsernames(threshold.nextInt()).forEach(System.out::println);
+
+            System.out.println("\n\nTo filter record by date created (old-new), enter a threshold value");
+            getUsernamesSortedByRecordDate(threshold.nextInt()).forEach(System.out::println);
+
+            System.out.println("\n\nThe user with the highest comment count is :: " + getUsernameWithHighestCommentCount());
+        }else {
+            System.out.println("Error occurred, check connection and retry");
+        }
     }
 
     //fetch data from API

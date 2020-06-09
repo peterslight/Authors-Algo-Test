@@ -7,18 +7,11 @@
 * Gson: Serialization
 * Converter Gson: Gson response Wrapper
 * JAVA 8
-* JUnit 4
-* Hamcrest: JUnit4 internal test dependency
 
 ### jump into code
 #Authors
 * Main file: https://github.com/peterslight/Authors-Algo-Test/blob/master/src/com/peterstev/Main.java
 * Source package: https://github.com/peterslight/Authors-Algo-Test/tree/master/src/com/peterstev
-
-#Sock Laundering
-* Main file: https://github.com/peterslight/Authors-Algo-Test/blob/master/src/com/peterstev/Main.java
-* Source package: https://github.com/peterslight/Authors-Algo-Test/tree/master/src/com/peterstev
-
 
 ## The Challenge
 
