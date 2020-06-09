@@ -12,12 +12,13 @@
 
 ### jump into code
 #Authors
-* Main file: https://github.com/peterslight/Authors-Algo-Test/blob/master/src/com/peterstev/Main.java
-* Source package: https://github.com/peterslight/Authors-Algo-Test/tree/master/src/com/peterstev
+* Main file: https://github.com/peterslight/Authors-Algo-Test/blob/master/src/authors/Main.java
+* Source package: https://github.com/peterslight/Authors-Algo-Test/tree/master/src/authors
 
 #Sock Laundering
-* Main file: https://github.com/peterslight/Authors-Algo-Test/blob/master/src/com/peterstev/Main.java
-* Source package: https://github.com/peterslight/Authors-Algo-Test/tree/master/src/com/peterstev
+* Main file: https://github.com/peterslight/Authors-Algo-Test/blob/master/src/socklaundering/SockLaundry.java
+* Test file: https://github.com/peterslight/Authors-Algo-Test/blob/master/src/socklaundering/SockLaundryTest.java
+* Source package: https://github.com/peterslight/Authors-Algo-Test/tree/master/src/socklaundering
 
 
 ## The Challenge
