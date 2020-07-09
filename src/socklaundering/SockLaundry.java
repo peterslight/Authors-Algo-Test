@@ -8,7 +8,14 @@ import java.util.stream.Collectors;
 
 public class SockLaundry {
 
-    public int getMaximumPairOfSocks(int noOfWashes, int[] cleanPile, int[] dirtyPile) {
+    public static void main(String[] args) {
+        int[] cleanPile = new int[] { 50, 50, 50, 37, 38, 37, 49, 39, 38, 45, 43 };
+        int[] dirtyPile = new int[] { 50 };
+        int numberMachineCanWash = 20;
+        print(getMaximumPairOfSocks(numberMachineCanWash, cleanPile, dirtyPile));
+    }
+
+    public static int getMaximumPairOfSocks(int noOfWashes, int[] cleanPile, int[] dirtyPile) {
 
         if (noOfWashes < 0 || noOfWashes > 50) return -1;
         if (cleanPile.length < 1 || cleanPile.length > 50
